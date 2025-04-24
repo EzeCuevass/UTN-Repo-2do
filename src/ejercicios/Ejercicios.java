@@ -50,7 +50,16 @@ public class Ejercicios {
         cuentaBancaria.retirar(5200000);
         System.out.println("Saldo: " + cuentaBancaria.getSaldo());
         */
-        
+        // Clase Libro
+        Libro libro = new Libro("La biblia de los caidos", "Ezequiel Cuevas", 50, 48);
+        System.out.println(libro.paginaActual);
+        libro.avanzarPagina();
+        libro.avanzarPagina();
+        System.out.println(libro.paginaActual);
+        System.out.println(libro.libroTerminado());
+        libro.retrocederPagina();
+        System.out.println(libro.paginaActual);
+        System.out.println(libro.libroTerminado());
     }
     
 }
