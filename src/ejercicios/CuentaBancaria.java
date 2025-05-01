@@ -1,9 +1,9 @@
 package ejercicios;
 
 public class CuentaBancaria {
-    double saldo;
-    String titular;
-    int numeroDeCuenta;
+    private double saldo;
+    private String titular;
+    private int numeroDeCuenta;
     
     public CuentaBancaria(double a, String b, int c){
         saldo = a;

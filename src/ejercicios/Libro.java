@@ -1,10 +1,10 @@
 package ejercicios;
 
 public class Libro {
-    String titulo;
-    String autor;
-    int numeroDePaginas;
-    int paginaActual;
+    private String titulo;
+    private String autor;
+    private int numeroDePaginas;
+    private int paginaActual;
     public Libro(String a, String b, int c, int d){
         titulo = a;
         autor = b;

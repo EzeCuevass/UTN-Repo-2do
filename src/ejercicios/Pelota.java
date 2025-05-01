@@ -1,8 +1,8 @@
 package ejercicios;
 
 public class Pelota {
-    String marca;
-    double circunferencia;
+    private String marca;
+    private double circunferencia;
     
     public Pelota(String a, double b){
         marca = a;

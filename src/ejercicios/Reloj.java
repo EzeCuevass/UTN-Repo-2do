@@ -1,9 +1,9 @@
 package ejercicios;
 
 public class Reloj {
-    int hora;
-    int minuto;
-    int segundo;
+    private int hora;
+    private int minuto;
+    private int segundo;
     public Reloj(int a, int b, int c){
         hora = a;
         minuto = b;

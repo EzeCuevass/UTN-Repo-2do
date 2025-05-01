@@ -1,8 +1,8 @@
 package ejercicios;
 
 public class Circulo {
-    double radio;
-    double pi = 3.14159265;
+    private double radio;
+    private double pi = 3.14159265;
     
     public Circulo(double a){
         radio = a;

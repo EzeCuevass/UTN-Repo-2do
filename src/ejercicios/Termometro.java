@@ -1,7 +1,7 @@
 package ejercicios;
 
 public class Termometro {
-    double temperatura;
+    private double temperatura;
     public Termometro(double a){
         temperatura = a;
     }

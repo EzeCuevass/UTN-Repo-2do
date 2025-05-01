@@ -1,9 +1,9 @@
 package ejercicios;
 
 public class Producto {
-   String nombre;
-   double precio;
-   int cantidadEnStock;
+   private String nombre;
+   private double precio;
+   private int cantidadEnStock;
    public Producto(String a, double b, int c){
        nombre = a;
        precio = b;

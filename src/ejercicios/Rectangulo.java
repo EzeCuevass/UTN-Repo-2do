@@ -2,8 +2,8 @@
 package ejercicios;
 
 public class Rectangulo {
-    double ancho;
-    double alto;
+    private double ancho;
+    private double alto;
     
     public Rectangulo(double a, double b){
         ancho = a;

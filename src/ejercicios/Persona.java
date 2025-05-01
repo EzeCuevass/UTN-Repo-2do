@@ -2,9 +2,9 @@ package ejercicios;
 import java.util.Scanner;
 
 public class Persona {
-    String nombre;
-    int edad;
-    double altura;
+    private String nombre;
+    private int edad;
+    private double altura;
     
     public Persona(String a, int b, double c){
         nombre = a;

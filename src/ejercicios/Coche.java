@@ -2,10 +2,10 @@ package ejercicios;
 
 
 public class Coche {
-    String marca;
-    String modelo;
-    int kilometraje;
-    double combustibleRestante;
+    private String marca;
+    private String modelo;
+    private int kilometraje;
+    private double combustibleRestante;
     public Coche(String a, String b, int c, double d){
         marca = a;
         modelo = b;
